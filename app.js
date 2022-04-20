@@ -12,6 +12,11 @@ app.get('/', (req, res) => {
     res.send('wolis')
 })
 
+//otro path
+app.get('/launchx', (req, res) => {
+    res.send('que onda')
+})
+
 //inicializamos la app
 app.listen(port, () => {
     console.log(`Example app ;istetening on port ${port}`);

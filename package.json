@@ -1,0 +1,22 @@
+{
+  "name": "express_basic",
+  "version": "1.0.0",
+  "description": "Repo para practica numero 6 de la semana 3 de bkacend con node.js de launchx",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xian145/Express_basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xian145/Express_basic/issues"
+  },
+  "homepage": "https://github.com/xian145/Express_basic#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
